@@ -1,0 +1,190 @@
+.form-container {
+    padding: 25px;
+    background-color: #ebebeb;
+  }
+  
+  .input-text,
+  .input-email,
+  .input-password,
+  .input-date {
+    width: 90vw;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  form div,
+  form p {
+    margin-bottom: 10px;
+  }
+  
+  .user-profile-container,
+  .intereses-container {
+    margin-left: 15px;
+  }
+  
+  form button {
+    width: 90vw;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 450ms;
+}
+  
+  button:hover {
+    background-color: #0022AA;
+}
+
+.logo{
+    width: 30%; 
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.banner{
+  width: 100%;  
+  margin-bottom: -1%;
+
+}
+
+.bg-yellow{
+  background-color: #EAC926;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.burger-menu i{
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 5px; 
+  background-color: #1259c3;  
+  
+}
+
+.burger-menu{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  background-color: #1259c3;
+  border: 1px solid  #1259c3;
+  border-radius: 10%;
+  width: 40px;
+  margin: auto;
+}
+
+footer {
+  background-color: white;
+  margin-top: 20px;
+}
+
+footer .fas {
+  color: #1259c3;
+}
+
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: 475ms;
+  text-align: center;
+}
+
+.contenedor-footer section{
+    text-align: center;
+
+}
+
+.top-nav-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.top-nav-container{
+    width: 70%; 
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.encabezado-inferior{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.encabezado-inferior a{
+  text-decoration: none;
+  color: black;
+}
+
+.encabezado-inferior ul li{
+  margin-right: 10px;
+  
+}
+
+.encabezado-inferior ul{
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  
+}
+.encabezado-inferior{
+  display: flex;
+  justify-content: space-between;    
+} 
+
+
+  @media (min-width: 769px) {
+    .form-container {
+      text-align: center;
+      
+      
+    }
+  
+    .input-text,
+    .input-email,
+    .input-password,
+    .input-date {
+      width: 40vw;
+      font-size: 18px;
+      padding: 5px;
+  }
+   form button {
+    width: 40vw;
+ }
+  
+    .user-profile-container,
+    .intereses-container {
+      text-align: justify;
+      margin-left: 40%;
+      margin-bottom: 20px;
+  }
+
+    .burger-menu{
+      display: none;
+  }
+
+  
+    
+
+  
+
+    
+}
+
+  @media (min-width: 361px){
+
+   
+   
+   
+   
+
+}
